@@ -1,9 +1,0 @@
-{
-  "provider": "python",
-  "install": {
-    "cmd": "pip install -r backend/requirements.txt"
-  },
-  "deploy": {
-    "cmd": "cd backend && python app.py"
-  }
-}
