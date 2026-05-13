@@ -1,7 +1,9 @@
 {
-  "$schema": "https://schema.railpack.com",
   "provider": "python",
+  "install": {
+    "cmd": "pip install -r backend/requirements.txt"
+  },
   "deploy": {
-    "startCommand": "cd backend && python app.py"
+    "cmd": "cd backend && python app.py"
   }
 }
